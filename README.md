@@ -1,4 +1,5 @@
-# vue-chat
+# ec-chat
+Simple chat vue component
 
 ## Usage
 

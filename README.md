@@ -1,5 +1,5 @@
 # ec-chat
-Simple chat vue component
+Vue chat component
 
 ## Install
 ```

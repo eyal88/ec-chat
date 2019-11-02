@@ -1,4 +1,34 @@
-# test
+# vue-chat
+
+## Usage
+
+# Import the component
+```
+import ECChat from "ec-chat";
+```
+
+# Register the component
+```
+components: {
+  "ec-chat": ECChat
+}
+```
+
+# Import style sheet
+```
+@import "~ec-chat/dist/ECChat.css";
+```
+
+# Use it
+```
+<ec-chat
+  :messages="messages"
+  :fetching-messages="fetchingMessages"
+  :user="user._id"
+  :send-message="sendMessage"
+  :get-user-by-id="getUserById"
+/>
+```
 
 ## Project setup
 ```

@@ -1,6 +1,11 @@
 # ec-chat
 Simple chat vue component
 
+## Install
+```
+npm i --save ec-chat
+```
+
 ## Usage
 
 ### Import the component

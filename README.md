@@ -3,24 +3,24 @@ Simple chat vue component
 
 ## Usage
 
-# Import the component
+### Import the component
 ```
 import ECChat from "ec-chat";
 ```
 
-# Register the component
+### Register the component
 ```
 components: {
   "ec-chat": ECChat
 }
 ```
 
-# Import style sheet
+### Import style sheet
 ```
 @import "~ec-chat/dist/ECChat.css";
 ```
 
-# Use it
+### Use it
 ```
 <ec-chat
   :messages="messages"

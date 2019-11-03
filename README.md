@@ -36,6 +36,34 @@ components: {
 />
 ```
 
+| Name | Type | Description |
+|---|---|---|
+| messages | [Message] | Array of all messages, sorted by creation date |
+| fetching-messages | Boolean | Is fetching messages |
+| user | String | Logged user id |
+| send-message | Function(message: Message) => Promise | Function for sending a new message |
+| get-user-by-id | Function(userId: String) => User | Function for getting user object by user id |
+
+### Objects
+
+#### Message
+```
+{
+  user: String, // user id
+  created: Date,
+  text: String
+}
+```
+
+#### User
+```
+{
+  _id: String,
+  name: String,
+  color: String // Hex
+}
+```
+
 ## Project setup
 ```
 npm install
